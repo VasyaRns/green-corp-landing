@@ -57,6 +57,7 @@ button:hover {
 }
 
 .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -65,6 +66,13 @@ button:hover {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+}
+.orb-canvas{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+
 }
 
 .about h1 {
